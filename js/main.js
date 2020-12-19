@@ -16,7 +16,7 @@ const  Nav=()=>{
     return(
         <nav className='nav-main'>
             <h3>ChaO</h3>
-            <ul>
+            <ul className='nav-items'>
                 
                 <li><a href='#'>Home</a></li>
                 <li><a href='#'>About</a></li>
@@ -41,13 +41,12 @@ const Card= (props)=>{
         <div className='card-bd'>
             <h3 className='card-title'>{props.name}</h3>
             <div className='card-img'>
-
-                <img className='img-card' src={props.img}/> 
-
-            </div>
-            <div className='card-nav'>
+ <img className='img-card' src={props.img}/> 
+           <div className='card-nav'>
                 <a href='#'>like</a>
-                <a href='#'>more</a>
+                <a href='#'>more</a>  
+            </div>
+            
                 
             </div>
         </div>
@@ -80,3 +79,5 @@ const Footer = ()=>{
     );
 }
 ReactDOM.render(<Main/>, entry)
+gsap.to(".card-bd", {duration:2, x:20});
+gsap.from(".nav-item", {duration:3,y:-20});
