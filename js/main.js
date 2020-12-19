@@ -80,4 +80,4 @@ const Footer = ()=>{
 }
 ReactDOM.render(<Main/>, entry)
 gsap.to(".card-bd", {duration:2, x:20});
-gsap.from(".nav-item", {duration:3,y:-20});
+
