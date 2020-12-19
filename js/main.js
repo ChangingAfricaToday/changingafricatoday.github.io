@@ -32,7 +32,7 @@ const Preamble=()=>{
         <div className='preambles-main'>
             <div className='cover'>
             <h1 id='pre-header'>Changing Africa Together</h1>
-            <p className='pr-info'>Africa is ours.... If it fails we fail, If it rises We rise.....</p></div>
+            <p className='pr-info'>"Africa is ours.... If it fails we fail, If it rises We rise....."</p></div>
     </div>
     )
 }
@@ -80,4 +80,5 @@ const Footer = ()=>{
 }
 ReactDOM.render(<Main/>, entry)
 gsap.to(".card-bd", {duration:2, x:20});
-gsap.to("#pre-header", {duration:2, x:20});
+gsap.to("#pre-header", {duration:3, x:20});
+//gsap.from(".nav-item", {duration:3,y:-20});
