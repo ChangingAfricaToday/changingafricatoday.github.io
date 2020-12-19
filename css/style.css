@@ -1,0 +1,82 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    background: rgba(0,0,0,0.8);
+}
+.nav-main{
+    display: flex;
+    height:10vh;
+    justify-content: space-between;
+    background: black;
+    color: wheat;
+
+    
+}
+.nav-main ul{
+    display: inline-flex;
+    list-style: none;
+
+
+}
+.nav-main ul li{
+    margin-left: 3em;
+    font-size: 1.25em;
+
+}
+.nav-main ul li a{
+   text-decoration: none;
+   color: aquamarine;
+
+}
+.preambles-main{
+    background: url('../images/globe.jpg');
+    height: 90vh;
+}
+#pre-header{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+.pr-info{
+    color:rgb(78, 60, 83);
+    font-size: 2em;
+}
+.cover{
+    height:100%;
+    background: rgba(0,0,0,0.2);
+}
+.card-bd{
+    margin-left:auto;
+    background: rgba(0,0,0,0.3);
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    
+}
+.card-img{
+    margin-top: 3px;
+    padding: 5px;
+    height: 250px;
+    width: 390px;
+    object-fit: cover;
+    
+}
+.card-flex{
+    display: flex;
+}
+.card-title{
+    color:yellow;
+}
+.img-card{
+    height: 100%;
+    width:100%;
+}
+.ft-main{
+    height: 10vh;
+    color:yellow;
+    text-align: center;
+}
+.ft-info{
+    
+    color:yellow;
+}
